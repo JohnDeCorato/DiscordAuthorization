@@ -2,8 +2,8 @@ import os
 from flask import Flask, g, session, redirect, request, url_for, jsonify
 from requests_oauthlib import OAuth2Session
 
-OAUTH2_CLIENT_ID = "169625178173603843" 
-OAUTH2_CLIENT_SECRET = "FnCMsy4HJL3PpFfKSs0W0jDuWyen3TwH"
+OAUTH2_CLIENT_ID = "put bot id here" 
+OAUTH2_CLIENT_SECRET = "put secret here"
 OAUTH2_REDIRECT_URI = 'https://mt5abot-authorization.herokuapp.com/callback'
 
 API_BASE_URL = 'https://discordapp.com/api'
