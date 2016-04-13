@@ -4,7 +4,7 @@ from requests_oauthlib import OAuth2Session
 
 OAUTH2_CLIENT_ID = "169625178173603843" 
 OAUTH2_CLIENT_SECRET = "FnCMsy4HJL3PpFfKSs0W0jDuWyen3TwH"
-OAUTH2_REDIRECT_URI = 'http://localhost:5000/callback'
+OAUTH2_REDIRECT_URI = 'https://mt5abot-authorization.herokuapp.com/callback'
 
 API_BASE_URL = 'https://discordapp.com/api'
 AUTHORIZATION_BASE_URL = API_BASE_URL + '/oauth2/authorize'
